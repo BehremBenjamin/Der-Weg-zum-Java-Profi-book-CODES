@@ -53,7 +53,7 @@ public final class SimpleImage {
     /**
      * INVALID STATE OF AND OBJECT
      * too early registred in a list
-     * with part attributes not being defined
+     * with part attributes not being defined. Name being defined, height and width not
      *
      /
 
