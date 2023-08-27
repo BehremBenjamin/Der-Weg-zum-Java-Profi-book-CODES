@@ -10,8 +10,8 @@ public final class GridPosition
     private int x = 0;
     private int y = 0;
 
-    GridPosition()
-    {
+    GridPosition(){
+        
     }
 
     public void addOffset(final int dx, final int dy)
