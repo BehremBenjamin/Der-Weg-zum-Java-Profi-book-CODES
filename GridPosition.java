@@ -6,7 +6,7 @@ public final class GridPosition
 {
     private static final int GRID_SIZE = 10;
 
-    // Invariant: x,y liegen grid size is always 10
+    // Invariant: x,y grid size is always 10
     private int x = 0;
     private int y = 0;
 
