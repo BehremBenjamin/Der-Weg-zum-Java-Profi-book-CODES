@@ -28,10 +28,6 @@ public interface IClubMembersRO extends IPersonRO {
 
 class ClubMembers implements IClubMembersRO {
 
-    public List<Person> getMembers() {
-        return members;
-    }
-
     List<Person> members;
     Person person;
 
