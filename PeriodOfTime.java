@@ -36,14 +36,14 @@ public final class PeriodOfTime {
     }
 
     public Date getStart() {
-       // return start;  -> BAD IMPLEMENTATION
-        return new Date((start.getTime()));
+       // return start;  -> BAD IMPLEMENTATION THAT DO NOT HINDER IMMUTABILITY
+        return new Date((start.getTime())); // sending a new reference with the same value will prevent direct changes of class attributes from outer classes 
 
     }
 
     public Date getEnd() {
-        //return end;  -> BAD IMPLEMENTATION
-        return new Date((end.getTime()));
+        //return end;  -> BAD IMPLEMENTATION THAT DO NOT HINDER IMMUTABILITY
+        return new Date((end.getTime())); // sending a new reference with the same value will prevent direct changes of class attributes from outer classes 
     }
 
 }
